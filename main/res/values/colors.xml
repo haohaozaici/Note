@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007DE4</color>
+    <color name="colorPrimaryDark">#0071CC</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tipsTextColor">#778DA4</color>
+    <color name="titleTextColor">#2D4E63</color>
+    <color name="TextColor">#7E9BB0</color>
+    <color name="background_grey">#D4E2EC</color>
+</resources>
