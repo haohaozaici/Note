@@ -11,6 +11,7 @@
         android:padding="10dp"
         android:text="@string/about_me"
         android:textSize="18sp"
+        android:textColor="@color/colorAccent"
         />
 
     <LinearLayout
@@ -34,6 +35,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/GitHub"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="通过支付宝捐赠"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donate"
             />
 
     </LinearLayout>

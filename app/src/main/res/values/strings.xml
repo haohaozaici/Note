@@ -30,5 +30,9 @@
     <!--about-->
     <string name="about_me">About me</string>
     <string name="GitHub">https://github.com/haohaozaici/Note</string>
+    
+    <string name="Alipay">aex01712umbanmkz7i1fs7f</string>
+    <string name="donate">358297604@qq.com(点击跳转到支付宝)</string>
+
 
 </resources>
