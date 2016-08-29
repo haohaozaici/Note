@@ -8,4 +8,6 @@
     <color name="titleTextColor">#2D4E63</color>
     <color name="TextColor">#7E9BB0</color>
     <color name="background_grey">#D4E2EC</color>
+
+    <color name="black">#C0000000</color>
 </resources>
