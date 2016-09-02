@@ -27,7 +27,8 @@
         <activity
             android:name=".AboutMe"
             android:parentActivityName="com.example.hao.Note.CrimeListActivity"
-            ></activity>
+            >
+        </activity>
     </application>
 
 

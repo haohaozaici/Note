@@ -2,6 +2,7 @@ package com.example.hao.Note;
 
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.customtabs.CustomTabsClient;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -40,7 +41,6 @@ public class AboutMe extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     public void openWebsite(String url) {
@@ -48,4 +48,11 @@ public class AboutMe extends AppCompatActivity {
         builder.setToolbarColor(getResources().getColor(R.color.colorAccent));
         builder.build().launchUrl(this, Uri.parse(url));
     }
+
+    @Override
+    public void onStart() {
+        CustomTabsClient.connectAndInitialize(AboutMe.this, "com.android.chrome");
+        super.onStart();
+    }
+
 }
